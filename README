@@ -1,0 +1,11 @@
+# Criar projeto node
+npm init --yes
+
+# Instalar o Cypress
+npm install -D cypress
+
+# Executar o Cypress
+.\node_modules\.bin\cypress open
+
+# Executar os testes sem abrir o Cypress
+npx cypress run --config chromeWebSecurity=false
